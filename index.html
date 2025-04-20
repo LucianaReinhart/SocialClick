@@ -201,9 +201,9 @@
 
             <!-- About Content -->
             <div class="animate_right jn/2">
-              <h4 class="ek yj mk gb">Why Choose Us</h4>
-              <h2 class="fk vj zp pr kk wm qb">We Make Our customers happy by giving Best services.</h2>
-              <p class="uo">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
+              <h4 class="ek yj mk gb">Tu Página de Enlaces</h4>
+              <h2 class="fk vj zp pr kk wm qb">¿Para qué es una página de enlace?</h2>
+              <p class="uo">Una página de enlace es una mini web personalizada donde podés reunir todos tus enlaces importantes en un solo lugar. Ideal para redes sociales como Instagram o TikTok, te permite mostrar tu tienda online, formularios de contacto, redes sociales, contenido exclusivo y mucho más con diseño a medida.</p>
 
               <a href="https://www.youtube.com/watch?v=xcJtL7QggTI" data-fslightbox class="vc wf hg mb">
                 <span class="tc wf xf be dd rg i gh ua">
@@ -374,7 +374,7 @@
       <section class="lj tp kr">
         <!-- Section Title Start -->
         <div
-          x-data="{ sectionTitle: `We Offer The Best Quality Service for You`, sectionTitleText: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor eros. Donec vitae tortor lacus. Phasellus aliquam ante in maximus.`}"
+          x-data="{ sectionTitle: `Diseño adaptable para cualquier perfil`, sectionTitleText: `Ya seas creador de contenido, marca personal o negocio, creamos una página de enlace que se ajusta a tu estilo.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
     <h2
@@ -394,44 +394,46 @@
             <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-04.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Crafted for Startups</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+              <h4 class="ek zj kk wm nb _b">Estética profesional y moderna</h4>
+              <p>Diseños atractivos con encabezados, íconos y botones personalizables para que tu identidad se destaque.</p>
             </div>
 
             <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-05.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">High-quality Design</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+              <h4 class="ek zj kk wm nb _b">Totalmente editable</h4>
+              <p>Podés elegir colores, fondos, tipografías y distribución. ¡Tu página, a tu manera!</p>
             </div>
 
             <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-06.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">All Essential Sections</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
+              <h4 class="ek zj kk wm nb _b">Estructura completa y funcional</h4>
+              <p>Incluye secciones esenciales como contacto, redes, catálogo o links de suscripción.
+
+              </p>
             </div>
 
-            <!-- Service Item -->
+            <!-- Service Item 
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-07.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Speed Optimized</h4>
+              <h4 class="ek zj kk wm nb _b">Carga rápida en todos los dispositivos</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>
+            </div>-->
 
-            <!-- Service Item -->
+            <!-- Service Item 
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-05.svg" alt="Icon" />
               <h4 class="ek zj kk wm nb _b">Fully Customizable</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>
+            </div>-->
 
-            <!-- Service Item -->
+            <!-- Service Item 
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-06.svg" alt="Icon" />
               <h4 class="ek zj kk wm nb _b">Regular Updates</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>
+            </div>-->
           </div>
         </div>
       </section>
@@ -448,7 +450,7 @@
 
         <!-- Section Title Start -->
         <div
-          x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
+          x-data="{ sectionTitle: `Ofrecemos precios accesibles y flexibles`, sectionTitleText: `Elige el plan que mejor se adapte a tus necesidades. Puedes cambiar entre plan mensual o anual en cualquier momento.`}"
         >
           <div class="animate_top bb ze rj ki xn vq">
     <h2
@@ -465,7 +467,7 @@
 
         <!-- Pricing switcher -->
         <div class="tc wf xf jb og">
-          <span class="ek kk wm">Bill Monthly</span>
+          <span class="ek kk wm">Plan Mensual</span>
           <button class="i rg gm" x-cloak @click="billPlan == 'monthly' ? billPlan = 'annually' : billPlan = 'monthly'">
             <div class="fe id bl gh rg xk outline-none"></div>
             <div
@@ -473,7 +475,7 @@
               :class="{ 'ff': billPlan == 'monthly', 'gf': billPlan == 'annually' }"
             ></div>
           </button>
-          <span class="ek kk wm">Bill Annually</span>
+          <span class="ek kk wm">Plan Anual</span>
         </div>
 
         <!-- Pricing Table -->
@@ -490,10 +492,10 @@
                     x-text="`$${billPlan == 'monthly' ? plan.price.monthly : plan.price.annually}`"
                     class="fk _j kk wm"
                   ></h2>
-                  <span x-text="billPlan == 'monthly' ? '/per month' : '/per year'" class="sc ak kk wm"></span>
+                  <span x-text="billPlan == 'monthly' ? '/por mes' : '/por año'" class="sc ak kk wm"></span>
                 </div>
 
-                <p class="ur dc">No credit card required</p>
+                <p class="ur dc">No se requiere tarjeta de crédito</p>
 
                 <!-- Button -->
                 <a
@@ -501,7 +503,7 @@
                   class="ek rg lk ml il gi ri"
                   :class="plan.name == 'Growth Plan' ? 'gh sl' : 'mh tl'"
                 >
-                  Try for free
+                Pruébalo gratis
                 </a>
 
                 <!-- Features -->
@@ -511,7 +513,7 @@
                   </template>
                 </ul>
 
-                <p class="kk wm">7-day free trial</p>
+                <p class="kk wm">Pruébalo gratis por 30 días</p>
               </div>
             </template>
           </div>
@@ -1342,32 +1344,32 @@
         return {
           isNavOpen: false,
 
-          billPlan: 'monthly',
+          billPlan: 'Mensual',
 
           plans: [
             {
-              name: 'Starter',
+              name: 'Plan Básico',
               price: {
-                monthly: 29,
-                annually: 29 * 12 - 199,
+                monthly: 7,
+                annually: 7 * 12 - 14,
               },
-              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+              features: ['Diseño estándar', 'Modificaciones limitadas', 'Soporte estándar'],
             },
             {
-              name: 'Growth Plan',
+              name: 'Plan de Crecimiento',
               price: {
-                monthly: 59,
-                annually: 59 * 12 - 100,
+                monthly: 10,
+                annually: 15 * 12 - 20,
               },
-              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+              features: ['Diseño limitado', 'Modificaciones limitadas', 'Soporte prioritario'],
             },
             {
-              name: 'Business',
+              name: 'Plan de Negocio',
               price: {
-                monthly: 139,
-                annually: 139 * 12 - 100,
+                monthly: 20,
+                annually: 20 * 12 - 40,
               },
-              features: ['400 GB Storaget', 'Unlimited Photos & Videos', 'Exclusive Support'],
+              features: ['Diseño personalizado', 'Modificaciones ilimitadas', 'Soporte prioritario'],
             },
           ],
         };
