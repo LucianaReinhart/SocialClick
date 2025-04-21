@@ -2600,6 +2600,18 @@ h1,  h2,  h3,  h4,  h5,  h6{
 }
 
 .logotamano{
-  width: 20px;
-  height: 20px;
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* opcional, para quitar subrayado */
+  gap: 1.1rem; /* espacio entre logo y texto */
+}
+
+.brand-name {
+  margin: 0;
+  font-size: 1.2rem;
 }
