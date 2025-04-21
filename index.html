@@ -106,29 +106,30 @@
     <main>
       <!-- ===== Hero Start ===== -->
       <section class="gj do ir hj sp jr i pg">
-        <!-- Hero Images -->
+        <!-- Hero Images 
         <div class="xc fn zd/2 2xl:ud-w-187.5 bd 2xl:ud-h-171.5 h q r">
           <img src="images/shape-01.svg" alt="shape" class="xc 2xl:ud-block h t -ud-left-[10%] ua" />
           <img src="images/shape-02.svg" alt="shape" class="xc 2xl:ud-block h u p va" />
           <img src="images/shape-03.svg" alt="shape" class="xc 2xl:ud-block h v w va" />
           <img src="images/shape-04.svg" alt="shape" class="h q r" />
-          <img src="images/hero.png" alt="Woman" class="h q r ua" />
-        </div>
+        </div>-->
 
         <!-- Hero Content -->
-        <div class="bb ze ki xn 2xl:ud-px-0">
-          <div class="tc _o">
-            <div class="animate_left jn/2">
+        <div class="bb ze ki xn">
+          <!-- Hero Image / Logo -->
+          <div class="mt-12 lg:mt-0 lg:w-1/2  ">
+            <img src="images/logo_socialClick.png" alt="SocialClick Logo" class="w-72 max-w-full" />
+          </div>
+
+          <div class="tc _o containermod padcab">
+            <div class="animate_left ">
               <h1 class="fk vj zp or kk wm wb">Impulsá tu presencia digital con un solo clic</h1>
-              <p class="fq">
+              <p class="fq containermod">
                 Creamos páginas de enlaces personalizadas para tu marca, negocio o perfil personal. Profesional, rápido y accesible.
               </p>
-
-              <div class="tc tf yo zf mb">
+              <div class="tc tf yo zf mb containermod">
                 <a href="#" class="ek jk lk gh gi hi rg ml il vc _d _l"
-                  >Contáctanos</a
-                >
-
+                  >Contáctanos</a>
                 <span class="tc sf">
                   <a href="#" class="inline-block ek xj kk wm"> Llamanos (+54) 456 – 789 </a>
                   <span class="inline-block">Envianos tu consulta</span>
@@ -136,6 +137,7 @@
               </div>
             </div>
           </div>
+          
         </div>
       </section>
       <!-- ===== Hero End ===== -->
@@ -202,7 +204,7 @@
             <!-- About Content -->
             <div class="animate_right jn/2">
               <h4 class="ek yj mk gb">Tu Página de Enlaces</h4>
-              <h2 class="fk vj zp pr kk wm qb">¿Para qué es una página de enlace?</h2>
+              <h2 class="fk vj zp pr kk wm qb">¿Por qué necesitas una página de enlace?</h2>
               <p class="uo">Una página de enlace es una mini web personalizada donde podés reunir todos tus enlaces importantes en un solo lugar. Ideal para redes sociales como Instagram o TikTok, te permite mostrar tu tienda online, formularios de contacto, redes sociales, contenido exclusivo y mucho más con diseño a medida.</p>
 
               <a href="https://www.youtube.com/watch?v=xcJtL7QggTI" data-fslightbox class="vc wf hg mb">
@@ -519,160 +521,6 @@
           </div>
         </div>
       </section>
-      <!-- ===== Pricing Table End ===== -->
-
-      <!-- ===== Projects Start ===== -->
-      <section class="pg pj vp mr oj wp nr">
-        <!-- Section Title Start -->
-        <div
-          x-data="{ sectionTitle: `We Offer Great Affordable Premium Prices.`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
-        >
-          <div class="animate_top bb ze rj ki xn vq">
-    <h2
-            x-text="sectionTitle"
-            class="fk vj pr kk wm on/5 gq/2 bb _b"
-    >
-    </h2>
-    <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
-
-
-        </div>
-        <!-- Section Title End -->
-
-        <div class="bb ze ki xn 2xl:ud-px-0 jb" x-data="{filterTab: 1}">
-          <!-- Porject Tab -->
-          <div
-            class="projects-tab _e bb tc uf wf xf cg rg hh rm vk xm si ti fc"
-          >
-            <button
-              data-filter="*"
-              @click="filterTab = 1"
-              :class="{ 'gh lk' : filterTab === 1 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              All
-            </button>
-            <button
-              data-filter=".branding"
-              @click="filterTab = 2"
-              :class="{ 'gh lk' : filterTab === 2 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Branding Strategy
-            </button>
-            <button
-              data-filter=".digital"
-              @click="filterTab = 3"
-              :class="{ 'gh lk' : filterTab === 3 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Digital Experiences
-            </button>
-            <button
-              data-filter=".ecommerce"
-              @click="filterTab = 4"
-              :class="{ 'gh lk' : filterTab === 4 }"
-              class="project-tab-btn ek rg ml il vi mi"
-            >
-              Ecommerce
-            </button>
-          </div>
-
-          <!-- Projects item wrapper -->
-          <div class="projects-wrapper tc -ud-mx-5">
-            <div class="project-sizer"></div>
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-01.png" alt="Project" />
-
-                <div 
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Photo Retouching</h4>
-                  <p>Branded Ecommerce</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 digital">
-              <div class="c i pg sg z-1">
-                <img src="images/project-02.png" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Photo Retouching</h4>
-                  <p>Branded Ecommerce</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd jn/2 to/3 branding ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-04.png" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Photo Retouching</h4>
-                  <p>Branded Ecommerce</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Project Item -->
-            <div class="project-item wi fb vd vo/3 digital ecommerce">
-              <div class="c i pg sg z-1">
-                <img src="images/project-03.png" alt="Project" />
-
-                <div
-                  class="h s r df nl kl im tc sf wf xf vd yc sg al hh/20 z-10"
-                >
-                  <h4 class="ek tj kk hc">Photo Retouching</h4>
-                  <p>Branded Ecommerce</p>
-                  <a
-                    class="c tc wf xf ie ld rg _g dh ml il ph jm km jc"
-                    href="#"
-                  >
-                    <svg class="th lm ml il" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M10.4763 6.16664L6.00634 1.69664L7.18467 0.518311L13.6663 6.99998L7.18467 13.4816L6.00634 12.3033L10.4763 7.83331H0.333008V6.16664H10.4763Z" />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ===== Projects End ===== -->
 
       <!-- ===== Testimonials Start ===== -->
       <section class="hj rp hr">
@@ -690,7 +538,6 @@
 </div>
 
 
-        </div>
         <!-- Section Title End -->
 
         <div class="bb ze ki xn ar">
