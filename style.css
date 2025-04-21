@@ -2585,3 +2585,12 @@ h1,  h2,  h3,  h4,  h5,  h6{
   }
 }
 
+.containermod {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+}
