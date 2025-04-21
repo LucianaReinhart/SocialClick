@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Base - Tailwind CSS Startup Template</title>
+    <title>SocialClick</title>
   <link rel="icon" href="favicon.ico"><link href="style.css" rel="stylesheet"></head>
   <body
     x-data="{ page: 'home', 'darkMode': true, 'stickyMenu': false, 'navigationOpen': false, 'scrollTop': false }"
@@ -22,8 +22,8 @@
   <div class="bb ze ki xn 2xl:ud-px-0 oo wf yf i">
     <div class="vd to/4 tc wf yf">
       <a href="index.html">
-        <img class="om" src="images/logo-light.svg" alt="Logo Light" />
-        <img class="xc nm" src="images/logo-dark.svg" alt="Logo Dark" />
+        <img class="om " src="images/l_socialClick.png" alt="Logo Light" />
+        <img class="xc nm" src="images/l_socialClick.png" alt="Logo Dark" />
       </a>
 
       <!-- Hamburger Toggle BTN -->
@@ -51,33 +51,9 @@
         <ul class="tc _o sf yo cg ep">
           <li><a href="index.html" class="xl" :class="{ 'mk': page === 'home' }">Home</a></li>
           <li><a href="index.html#features" class="xl">Features</a></li>
-          <li class="c i" x-data="{ dropdown: false }">
-            <a
-              href="#"
-              class="xl tc wf yf bg"
-              @click.prevent="dropdown = !dropdown"
-              :class="{ 'mk': page === 'blog-grid' || page === 'blog-single' || page === 'signin' || page === 'signup' || page === '404' }"
-            >
-              Pages
-
-              <svg
-              :class="{ 'wh': dropdown }"
-              class="th mm we fd pf" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-              </svg>
-            </a>
-
-            <!-- Dropdown Start -->
-            <ul class="a" :class="{ 'tc': dropdown }">
-              <li><a href="blog-grid.html" class="xl" :class="{ 'mk': page === 'blog-grid' }">Blog Grid</a></li>
-              <li><a href="blog-single.html" class="xl" :class="{ 'mk': page === 'blog-single' }">Blog Single</a></li>
-              <li><a href="signin.html" class="xl" :class="{ 'mk': page === 'signin' }">Sign In</a></li>
-              <li><a href="signup.html" class="xl" :class="{ 'mk': page === 'signup' }">Sign Up</a></li>
-              <li><a href="404.html" class="xl" :class="{ 'mk': page === '404' }">404</a></li>
-            </ul>
-            <!-- Dropdown End -->
-          </li>
+          
           <li><a href="index.html#support" class="xl">Support</a></li>
+
         </ul>
       </nav>
 
@@ -93,9 +69,9 @@
             <img class="xc nm" src="images/icon-moon.svg" alt="Moon" />
           </label>
         </div>
-
+        <!--
         <a href="signin.html" :class="{ 'nk yl' : page === 'home', 'ok' : page === 'home' && stickyMenu }" class="ek pk xl">Sign In</a>
-        <a href="signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>
+        <a href="signup.html" :class="{ 'hh/[0.15]' : page === 'home', 'sh' : page === 'home' && stickyMenu }" class="lk gh dk rg tc wf xf _l gi hi">Sign Up</a>-->
       </div>
     </div>
   </div>
@@ -416,26 +392,26 @@
               </p>
             </div>
 
-            <!-- Service Item 
+            <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-07.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Carga rápida en todos los dispositivos</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>-->
+              <h4 class="ek zj kk wm nb _b">Contacto al instante</h4>
+              <p>Botones de llamada, email y chat para que tus clientes te contraten sin barreras.</p>
+            </div>
 
-            <!-- Service Item 
+            <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-05.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Fully Customizable</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>-->
+              <h4 class="ek zj kk wm nb _b">Todo en un solo enlace</h4>
+              <p>Facebook, Instagram, WhatsApp, Telegram, web y más reunidos en tu SocialClick.</p>
+            </div>
 
-            <!-- Service Item 
+            <!-- Service Item -->
             <div class="animate_top sg oi pi zq ml il am cn _m">
               <img src="images/icon-06.svg" alt="Icon" />
-              <h4 class="ek zj kk wm nb _b">Regular Updates</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis tortor.</p>
-            </div>-->
+              <h4 class="ek zj kk wm nb _b">Mini catálogo integrado</h4>
+              <p>Muestra productos o servicios en tu SocialClick.</p>
+            </div>
           </div>
         </div>
       </section>
@@ -601,7 +577,7 @@
       </section>
       <!-- ===== Testimonials End ===== -->
 
-      <!-- ===== Counter Start ===== -->
+      <!-- ===== Counter Start ===== 
       <section class="i pg qh rm ji hp">
         <img src="images/shape-11.svg" alt="Shape" class="of h ga ha ke" />
         <img src="images/shape-07.svg" alt="Shape" class="h ia o ae jf" />
@@ -628,12 +604,12 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- ===== Counter End ===== -->
 
-      <!-- ===== Clients Start ===== -->
+      <!-- ===== Clients Start ===== 
       <section class="pj vp mr">
-        <!-- Section Title Start -->
+         Section Title Start 
         <div
           x-data="{ sectionTitle: `Trusted by Global Brands`, sectionTitleText: `It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using.`}"
         >
@@ -644,11 +620,11 @@
     >
     </h2>
     <p class="bb on/5 wo/5 hq" x-text="sectionTitleText"></p>
-</div>
-
-
         </div>
-        <!-- Section Title End -->
+
+
+        </div>-->
+        <!-- Section Title End 
 
         <div class="bb ze ah ch pm hj xp ki xn 2xl:ud-px-49 bc">
           <div class="wc rf qn zf cp kq xf wf">
@@ -679,7 +655,7 @@
           </div>
         </div>
       </section>
-      <!-- ===== Clients End ===== -->
+       ===== Clients End ===== -->
 
       <!-- ===== Blog Start ===== -->
       <section class="ji gp uq">
@@ -902,7 +878,7 @@
               <form action="https://formbold.com/s/unique_form_id" method="POST">
                 <div class="tc sf yo ap zf ep qb">
                   <div class="vd to/2">
-                    <label class="rc ac" for="fullname">Full name</label>
+                    <label class="rc ac" for="fullname">Nombre</label>
                     <input
                       type="text"
                       name="fullname"
@@ -913,7 +889,7 @@
                   </div>
 
                   <div class="vd to/2">
-                    <label class="rc ac" for="email">Email address</label>
+                    <label class="rc ac" for="email">Email</label>
                     <input
                       type="email"
                       name="email"
@@ -926,7 +902,7 @@
 
                 <div class="tc sf yo ap zf ep qb">
                   <div class="vd to/2">
-                    <label class="rc ac" for="phone">Phone number</label>
+                    <label class="rc ac" for="phone">Número de teléfono</label>
                     <input
                       type="text"
                       name="phone"
@@ -949,7 +925,7 @@
                 </div>
 
                 <div class="fb">
-                  <label class="rc ac" for="message">Message</label>
+                  <label class="rc ac" for="message">Mensaje</label>
                   <textarea
                     placeholder="Message"
                     rows="4"
@@ -978,7 +954,7 @@
     <div class="tc uf sn tn un gg">
       <div class="animate_left to/2">
         <h2 class="fk vj zp pr lk ac">
-            Join with 5000+ Startups Growing with Base.
+            Únete a los emprendedores que ya impulsan su negocio con SocialClick
         </h2>
         <p class="lk">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis nibh lorem. Duis sed odio lorem. In a efficitur leo. Ut venenatis rhoncus.
@@ -986,7 +962,7 @@
       </div>
       <div class="animate_right bf">
         <a href="#" class="vc ek kk hh rg ol il cm gi hi">
-            Get Started Now
+            Empieza ahora
         </a>
       </div>
     </div>
@@ -1197,18 +1173,18 @@
             {
               name: 'Plan Básico',
               price: {
-                monthly: 7,
-                annually: 7 * 12 - 14,
+                monthly: 9,
+                annually: 9 * 12 - 18,
               },
-              features: ['Diseño estándar', 'Modificaciones limitadas', 'Soporte estándar'],
+              features: ['Hasta 5 enlaces', 'Modificaciones limitadas', 'Soporte estándar'],
             },
             {
-              name: 'Plan de Crecimiento',
+              name: 'Plan de Negocio',
               price: {
-                monthly: 10,
-                annually: 15 * 12 - 20,
+                monthly: 20,
+                annually: 20 * 12 - 40,
               },
-              features: ['Diseño limitado', 'Modificaciones limitadas', 'Soporte prioritario'],
+              features: ['Enlaces ilimitados', 'Modificaciones limitadas', 'Soporte prioritario'],
             },
           ],
         };
